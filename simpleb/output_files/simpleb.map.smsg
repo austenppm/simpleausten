@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at simpleb.v(1): object "Reset" differs only in case from object "reset" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 1
+Info (10281): Verilog HDL Declaration information at simpleb.v(1): object "Exec" differs only in case from object "exec" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 1
+Info (10281): Verilog HDL Declaration information at simpleb.v(23): object "ir3" differs only in case from object "IR3" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 23
+Info (10281): Verilog HDL Declaration information at simpleb.v(23): object "ar4" differs only in case from object "AR4" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 23
+Info (10281): Verilog HDL Declaration information at simpleb.v(23): object "ir4" differs only in case from object "IR4" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 23
+Info (10281): Verilog HDL Declaration information at simpleb.v(23): object "dr5" differs only in case from object "DR5" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 23
+Info (10281): Verilog HDL Declaration information at simpleb.v(23): object "ir5" differs only in case from object "IR5" in the same scope File: C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simpleb.v Line: 23

@@ -1,0 +1,14 @@
+module ir(input clock,reset,ce,//changeEnable
+			input [15:0] value,
+			output reg [15:0] ir);
+	always @(posedge clock) begin 
+		if(reset == 1'b 1)begin
+		ir[15:14] <= 2'b11;
+        ir[7:4] <= 4'b1110;
+		end else begin
+			if(ce == 1'b1)begin
+				register <= value;
+			end
+		end
+	end
+endmodule

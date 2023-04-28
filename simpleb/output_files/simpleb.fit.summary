@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu May 26 16:48:06 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : simpleb
+Top-level Entity Name : simpleb
+Family : Cyclone IV E
+Device : EP4CE30F23I7
+Timing Models : Final
+Total logic elements : 1,461 / 28,848 ( 5 % )
+    Total combinational functions : 1,423 / 28,848 ( 5 % )
+    Dedicated logic registers : 650 / 28,848 ( 2 % )
+Total registers : 650
+Total pins : 83 / 329 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 131,072 / 608,256 ( 22 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

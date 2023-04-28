@@ -1,0 +1,321 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "count_LEDB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cycle_selectorB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "systemStopped0",
+					"strict" : false
+				},
+				{
+					"name" : "DR_MDR5",
+					"strict" : false
+				},
+				{
+					"name" : "REGwren5",
+					"strict" : false
+				},
+				{
+					"name" : "MEMread3",
+					"strict" : false
+				},
+				{
+					"name" : "PCw",
+					"strict" : false
+				},
+				{
+					"name" : "BF",
+					"strict" : false
+				},
+				{
+					"name" : "in[15]",
+					"strict" : false
+				},
+				{
+					"name" : "in[14]",
+					"strict" : false
+				},
+				{
+					"name" : "in[13]",
+					"strict" : false
+				},
+				{
+					"name" : "in[12]",
+					"strict" : false
+				},
+				{
+					"name" : "in[11]",
+					"strict" : false
+				},
+				{
+					"name" : "in[10]",
+					"strict" : false
+				},
+				{
+					"name" : "in[9]",
+					"strict" : false
+				},
+				{
+					"name" : "in[8]",
+					"strict" : false
+				},
+				{
+					"name" : "in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Exec",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim
+vsimpleb
+Z1 !s110 1653544255
+!i10b 1
+!s100 ohQL9BlJ2C?I?R0PDddnX2
+IgVg`0]65DZ;n5?g7Go5z^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1653544008
+8simpleb_7_1200mv_100c_slow.vo
+Fsimpleb_7_1200mv_100c_slow.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1653544255.000000
+!s107 simpleb_7_1200mv_100c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|simpleb_7_1200mv_100c_slow.vo|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z6 tCvgOpt 0
+vsimpleb_vlg_tst
+R1
+!i10b 1
+!s100 dG=Eb`bAfnMhk6Qg4FLYk2
+I^ibhj28c1dgC09FnS=DZI2
+R2
+R0
+w1653544096
+8C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim/simpleb.vt
+FC:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim/simpleb.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim/simpleb.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim|C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim/simpleb.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/moeka/git/kuis-isle3hw/2022-simple-team17/simpleb/simulation/modelsim
+R6

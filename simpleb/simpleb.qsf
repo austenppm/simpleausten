@@ -1,0 +1,196 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 14:46:15  April 15, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		simpleb_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE30F23I7
+set_global_assignment -name TOP_LEVEL_ENTITY simpleb
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:46:15  APRIL 15, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_Y6 -to LED0[7]
+set_location_assignment PIN_AB5 -to LED0[6]
+set_location_assignment PIN_W6 -to LED0[5]
+set_location_assignment PIN_AB4 -to LED0[4]
+set_location_assignment PIN_AA5 -to LED0[3]
+set_location_assignment PIN_AA4 -to LED0[2]
+set_location_assignment PIN_V5 -to LED0[1]
+set_location_assignment PIN_AA3 -to LED0[0]
+set_location_assignment PIN_U8 -to LED1[7]
+set_location_assignment PIN_AA7 -to LED1[6]
+set_location_assignment PIN_T8 -to LED1[5]
+set_location_assignment PIN_V7 -to LED1[4]
+set_location_assignment PIN_Y7 -to LED1[3]
+set_location_assignment PIN_U7 -to LED1[2]
+set_location_assignment PIN_W7 -to LED1[1]
+set_location_assignment PIN_V6 -to LED1[0]
+set_location_assignment PIN_V9 -to LED2[7]
+set_location_assignment PIN_AB8 -to LED2[6]
+set_location_assignment PIN_U9 -to LED2[5]
+set_location_assignment PIN_W8 -to LED2[4]
+set_location_assignment PIN_AA8 -to LED2[3]
+set_location_assignment PIN_V8 -to LED2[2]
+set_location_assignment PIN_Y8 -to LED2[1]
+set_location_assignment PIN_AB7 -to LED2[0]
+set_location_assignment PIN_AB10 -to LED3[7]
+set_location_assignment PIN_W10 -to LED3[6]
+set_location_assignment PIN_AA10 -to LED3[5]
+set_location_assignment PIN_AB9 -to LED3[4]
+set_location_assignment PIN_V10 -to LED3[3]
+set_location_assignment PIN_AA9 -to LED3[2]
+set_location_assignment PIN_U10 -to LED3[1]
+set_location_assignment PIN_T9 -to LED3[0]
+set_location_assignment PIN_A10 -to in[15]
+set_location_assignment PIN_B10 -to in[14]
+set_location_assignment PIN_C10 -to in[13]
+set_location_assignment PIN_D10 -to in[12]
+set_location_assignment PIN_E10 -to in[11]
+set_location_assignment PIN_F10 -to in[10]
+set_location_assignment PIN_G10 -to in[9]
+set_location_assignment PIN_G11 -to in[8]
+set_location_assignment PIN_E11 -to in[7]
+set_location_assignment PIN_F11 -to in[6]
+set_location_assignment PIN_A13 -to in[5]
+set_location_assignment PIN_B13 -to in[4]
+set_location_assignment PIN_C13 -to in[3]
+set_location_assignment PIN_D13 -to in[2]
+set_location_assignment PIN_E13 -to in[1]
+set_location_assignment PIN_F13 -to in[0]
+set_location_assignment PIN_V16 -to selector
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH test -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME test -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id test
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME test -section_id test
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/simpleb.vt -section_id test
+set_location_assignment PIN_E15 -to Reset
+set_location_assignment PIN_F15 -to Exec
+set_global_assignment -name VERILOG_FILE simpleb.v
+set_global_assignment -name VERILOG_FILE control.v
+set_global_assignment -name VERILOG_FILE alu.v
+set_global_assignment -name VERILOG_FILE REG.v
+set_global_assignment -name VERILOG_FILE phaseCounter.v
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name VERILOG_FILE registerFile.v
+set_global_assignment -name VERILOG_FILE pc.v
+set_global_assignment -name VERILOG_FILE szcv.v
+set_global_assignment -name VERILOG_FILE externalOut.v
+set_global_assignment -name VERILOG_FILE multiplexer.v
+set_global_assignment -name VERILOG_FILE demultiplexer.v
+set_global_assignment -name VERILOG_FILE shifter.v
+set_global_assignment -name VERILOG_FILE ir.v
+set_global_assignment -name VERILOG_FILE ForwardingUnit.v
+set_global_assignment -name VERILOG_FILE HazardDetectionUnit.v
+set_global_assignment -name VERILOG_FILE adder16.v
+set_global_assignment -name VERILOG_FILE ar_szcv.v
+set_global_assignment -name VERILOG_FILE control3.v
+set_global_assignment -name QIP_FILE instructionMemory.qip
+set_global_assignment -name VERILOG_FILE Fwd.v
+set_global_assignment -name VERILOG_FILE cycleCount.v
+set_location_assignment PIN_A12 -to init_clock
+set_global_assignment -name QIP_FILE PLL.qip
+set_location_assignment PIN_V13 -to LED4[7]
+set_location_assignment PIN_V12 -to LED4[6]
+set_location_assignment PIN_U13 -to LED4[5]
+set_location_assignment PIN_V11 -to LED4[4]
+set_location_assignment PIN_U12 -to LED4[3]
+set_location_assignment PIN_U11 -to LED4[2]
+set_location_assignment PIN_T12 -to LED4[1]
+set_location_assignment PIN_Y10 -to LED4[0]
+set_location_assignment PIN_V14 -to LED5[7]
+set_location_assignment PIN_R14 -to LED5[6]
+set_location_assignment PIN_U14 -to LED5[5]
+set_location_assignment PIN_Y13 -to LED5[4]
+set_location_assignment PIN_AB13 -to LED5[3]
+set_location_assignment PIN_W13 -to LED5[2]
+set_location_assignment PIN_AA13 -to LED5[1]
+set_location_assignment PIN_T13 -to LED5[0]
+set_location_assignment PIN_W15 -to LED6[7]
+set_location_assignment PIN_T15 -to LED6[6]
+set_location_assignment PIN_V15 -to LED6[5]
+set_location_assignment PIN_AA14 -to LED6[4]
+set_location_assignment PIN_R15 -to LED6[3]
+set_location_assignment PIN_W14 -to LED6[2]
+set_location_assignment PIN_AB14 -to LED6[1]
+set_location_assignment PIN_T14 -to LED6[0]
+set_location_assignment PIN_AB16 -to LED7[7]
+set_location_assignment PIN_U16 -to LED7[6]
+set_location_assignment PIN_AA16 -to LED7[5]
+set_location_assignment PIN_AB15 -to LED7[4]
+set_location_assignment PIN_T16 -to LED7[3]
+set_location_assignment PIN_AA15 -to LED7[2]
+set_location_assignment PIN_R16 -to LED7[1]
+set_location_assignment PIN_U15 -to LED7[0]
+set_location_assignment PIN_AA17 -to cycle_selector
+set_location_assignment PIN_A3 -to count_LEDA[7]
+set_location_assignment PIN_B6 -to count_LEDA[6]
+set_location_assignment PIN_A6 -to count_LEDA[5]
+set_location_assignment PIN_A5 -to count_LEDA[4]
+set_location_assignment PIN_B4 -to count_LEDA[3]
+set_location_assignment PIN_B3 -to count_LEDA[2]
+set_location_assignment PIN_A4 -to count_LEDA[1]
+set_location_assignment PIN_B5 -to count_LEDA[0]
+set_location_assignment PIN_C6 -to count_LEDB[7]
+set_location_assignment PIN_F7 -to count_LEDB[6]
+set_location_assignment PIN_E7 -to count_LEDB[5]
+set_location_assignment PIN_C7 -to count_LEDB[4]
+set_location_assignment PIN_B7 -to count_LEDB[3]
+set_location_assignment PIN_D6 -to count_LEDB[2]
+set_location_assignment PIN_A7 -to count_LEDB[1]
+set_location_assignment PIN_D7 -to count_LEDB[0]
+set_location_assignment PIN_C3 -to cycle_selectorA[3]
+set_location_assignment PIN_C4 -to cycle_selectorA[2]
+set_location_assignment PIN_E5 -to cycle_selectorA[1]
+set_location_assignment PIN_E6 -to cycle_selectorA[0]
+set_location_assignment PIN_H10 -to cycle_selectorB[3]
+set_location_assignment PIN_G9 -to cycle_selectorB[2]
+set_location_assignment PIN_G8 -to cycle_selectorB[1]
+set_location_assignment PIN_G7 -to cycle_selectorB[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
